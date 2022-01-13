@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "offoweb",
+      "target": "offonow",
       "public": "dist/offoweb/browser",
       "ignore": ["**/.*"],
       "headers": [
