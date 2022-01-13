@@ -2,13 +2,3 @@
   "projects": {
     "default": "offonow"
   },
-  "targets": {
-    "manishsoftwareapp": {
-      "hosting": {
-        "offonow": [
-          "offonow"
-        ]
-      }
-    }
-  }
-}
