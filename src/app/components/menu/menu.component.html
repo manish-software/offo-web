@@ -1,0 +1,12 @@
+<button mat-stroked-button color="primary" [matMenuTriggerFor]="appMenu">Services</button>
+<mat-menu #appMenu="matMenu" xPosition="before">
+    <a mat-menu-item [ngClass]="!path ? 'active' : ''" href="https://offonow.com/">
+        Mobile Application Development
+    </a>
+    <a mat-menu-item [ngClass]="path === '/web-design' ? 'active' : ''" href="https://offonow.com/web-design/">
+        Web Design
+    </a>
+    <a mat-menu-item [ngClass]="path === '/seo' ? 'active' : ''" href="https://offonow.com/seo/">
+        Search Engine Optimization (SEO)
+    </a>
+</mat-menu>

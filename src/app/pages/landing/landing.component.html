@@ -1,0 +1,58 @@
+<mat-drawer-container autosize>
+    <mat-drawer #drawer class="sidenav" mode="over">
+
+    </mat-drawer>
+
+    <mat-toolbar class="app-navbar">
+        <mat-toolbar-row>
+            <!-- <button fxShow fxHide.gt-sm="true" mat-icon-button (click)="drawer.toggle()">
+                <mat-icon svgIcon="menu"></mat-icon>
+            </button> -->
+
+            <span class="margin-left-10" fxHide fxShow.gt-sm="true"></span>
+
+
+
+            <a href="https://offonow.com/" mat-button>
+                <img alt="logo" class="logo" width="48" height="48"
+                    src="assets/images/logo.png">
+            </a>
+
+
+
+            <span class="margin-right-10" fxHide fxShow.gt-sm="true"></span>
+
+
+
+        </mat-toolbar-row>
+    </mat-toolbar>
+
+    <mat-card id="top" class="mat-card-section mat-elevation-z0">
+        <mat-card-content>
+            <div fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayoutAlign="center start" fxLayoutGap="32px">
+
+                <div fxFlex>
+
+                    <h1 class="mat-display-2 text-left">
+                        Offo </h1>
+
+                    <p class="mat-subheading-2 light margin-bottom-36">
+
+                        Get offers for anything, anywhere!
+                    </p>
+
+
+
+
+
+                </div>
+                <div fxFlex>
+                </div>
+
+            </div>
+        </mat-card-content>
+    </mat-card>
+
+    <app-footer></app-footer>
+
+</mat-drawer-container>
